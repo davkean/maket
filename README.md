@@ -10,7 +10,7 @@ Packages are opt'd in as normal via a `<PackageReference>` [in each project]((ht
   </ItemGroup>
 ```
 
-Package versions across the repo are then controlled by the `<PackageReference Update=""/>` inside of [Directory.Build.targets](https://github.com/davkean/maket/blob/master/Directory.Build.targets):
+Package versions across the repository (or solution) are then controlled by the `<PackageReference Update=""/>` constructs (new for MSBuild 15) inside of [Directory.Build.targets](https://github.com/davkean/maket/blob/master/Directory.Build.targets):
 
 ``` XML
   <ItemGroup>
