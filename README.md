@@ -19,3 +19,4 @@ Package versions across the repository (or solution) are then controlled by the 
   </ItemGroup>
 ```
 
+You can read more information about Directory.Build.props/Directory.Build.targets in [Customize your build](https://docs.microsoft.com/en-us/visualstudio/msbuild/customize-your-build).
