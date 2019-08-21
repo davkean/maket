@@ -19,4 +19,7 @@ Package versions across the repository (or solution) are then controlled by the 
   </ItemGroup>
 ```
 
+This says, "if a project has Newtonsoft.Json or EntityFramework in their list of packages, update them to this version".
+
+
 You can read more information about Directory.Build.props/Directory.Build.targets in [Customize your build](https://docs.microsoft.com/en-us/visualstudio/msbuild/customize-your-build).
